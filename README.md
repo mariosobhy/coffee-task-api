@@ -14,12 +14,11 @@
 ## API Documentation:
 
 - Here's a link of postman doucumentation [here](https://documenter.getpostman.com/view/910736/T1DqeveR?version=latest)
-- You can filter by any field 
-- List of filters 
--- http://localhost:3000/coffeeMachines?productType=COFFEE_MACHINE_LARGE
--- http://localhost:3000/coffeePods?modelType=COFFEE_POD_LARGE
--- http://localhost:3000/coffeePods?modelType=ESPRESSO_POD&coffeeFalvor=COFFEE_FLAVOR_VANILIA
--- http://localhost:3000/coffeeMachines?productType=ESPRESSO_MACHINE
--- http://localhost:3000/coffeePods?modelType=COFFEE_POD_SMALL
--- http://localhost:3000/coffeePods?modelType=COFFEE_POD_LARGE
--- http://localhost:3000/coffeePods?packSize=7 dozen
+
+## List of filters 
+### http://localhost:3000/coffeeMachines?productType=COFFEE_MACHINE_LARGE
+### http://localhost:3000/coffeePods?modelType=COFFEE_POD_LARGE
+### http://localhost:3000/coffeePods?modelType=ESPRESSO_POD&coffeeFalvor=COFFEE_FLAVOR_VANILIA
+### http://localhost:3000/coffeeMachines?productType=ESPRESSO_MACHINE
+### http://localhost:3000/coffeePods?modelType=COFFEE_POD_SMALL
+### http://localhost:3000/coffeePods?modelType=COFFEE_POD_LARGE###http://localhost:3000/coffeePods?packSize=7 dozen
