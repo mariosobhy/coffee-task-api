@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const coffeePodSchema = new mongoose.Schema({
   productCode: {
     type: String,
-    required: true
+    unique: true
   },
   modelType: {
     type: String,
@@ -21,8 +21,8 @@ const coffeePodSchema = new mongoose.Schema({
   },
   packSize: {
     type: String,
-    enum: ['1 dozen(12)', '3 dozen(36)', '5 dozen(60)','7 dozen(84)'],
-    default: '1 dozen(12)',
+    enum: ['1 dozen', '3 dozen', '5 dozen','7 dozen'],
+    default: '1 dozen',
     required: true,
   } 
 });

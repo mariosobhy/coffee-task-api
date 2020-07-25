@@ -3,6 +3,7 @@ const mongoose = require("mongoose");
 const coffeeMachineSchema = new mongoose.Schema({
   productCode: {
     type: String,
+    unique: true
   },
   modelType: {
     type: String,

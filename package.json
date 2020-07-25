@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "mongo-seeding": "^3.4.1",
     "mongoose": "^5.9.25",
     "mongoose-unique-validator": "^2.0.3",
     "validator": "^13.1.1"
