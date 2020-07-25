@@ -2,7 +2,7 @@ const CoffeeMachine = require("../models/coffee_machine");
 
 module.exports = {
   getList: (req, res) => {
-      CoffeeMachine.find({}).then((data) => {
+      CoffeeMachine.find(req.query).then((data) => {
         res.send({
           message: "Coffee machines retrieved successfully.",
           data: data
