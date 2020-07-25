@@ -6,7 +6,7 @@ module.exports = {
           res.send({
             message: "Coffee machines retrieved successfully.",
             data: data
-          });
+          } );
         }).catch((error) => {
           res.status(500).send();
         })

@@ -2,12 +2,14 @@ module.exports = [
     {
         productCode: "CM001",
         modelType: "BASE_MODEL",
-        productType: "COFFEE_MACHINE_SMALL"
+        productType: "COFFEE_MACHINE_SMALL",
+        waterLine: false
     },
     {
         productCode: "CM002",
         modelType: "PREMIUM_MODEL",
-        productType: "COFFEE_MACHINE_SMALL"
+        productType: "COFFEE_MACHINE_SMALL",
+        waterLine: false
     },
     {
         productCode: "CM003",
@@ -18,7 +20,8 @@ module.exports = [
     {
         productCode: "CM101",
         modelType: "BASE_MODEL",
-        productType: "COFFEE_MACHINE_LARGE"
+        productType: "COFFEE_MACHINE_LARGE",
+        waterLine: false
     },
     {
         productCode: "CM102",
@@ -35,12 +38,14 @@ module.exports = [
     {
         productCode: "EM001",
         modelType: "BASE_MODEL",
-        productType: "ESPRESSO_MACHINE"
+        productType: "ESPRESSO_MACHINE",
+        waterLine: false
     },
     {
         productCode: "EM002",
         modelType: "PREMIUM_MODEL",
-        productType: "ESPRESSO_MACHINE"
+        productType: "ESPRESSO_MACHINE",
+        waterLine: false
     },
     {
         productCode: "EM003",
